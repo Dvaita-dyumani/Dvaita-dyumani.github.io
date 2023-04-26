@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Algreya&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+<nav>
+  <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81r4QQ6H-BQAnvRReIjHtlWAmLOGs1aeL8gxI2Vj62uweUuRrslH-_3a6XvVNGYGENgmfTa7XTiweXAHbfSWR4M6TwBYNw=s2560" alt="logo" class="logo">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Copyright Disclaimer</a></li>
+    <li><a href="#">Contribute</a></li>
+    <li><a href="#">Site-map</a></li>
+  </ul>
+</nav>
+<style>
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 7px;
+  margin-right: 7px;
+   font-family: 'Poppins', serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  background-color: #ff0000;
+  height: 2px;
+}
+.logo {
+  max-width: 100px;
+  max-height: 50px;
+}
+</style>
+</html>
